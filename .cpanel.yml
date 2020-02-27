@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/gestyxtf/prueba/
+    - /bin/cp -R images $DEPLOYPATH
